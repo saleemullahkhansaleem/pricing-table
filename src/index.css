@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.pricing-table {
+  width: 100%;
+  padding: 32px;
+}
+
+.p-4 {
+  padding: 0 16px;
+}
+
+.pricing-table thead, .pricing-table tbody {
+  padding: 32px 0;
+}
+
+.pricing-table thead td {
+  padding: 32px 0px;
+  max-width: 100px;
+  vertical-align: bottom;
+}
+
+.pricing-table tbody tr td {
+  border-bottom: dotted 3px #dddddd;
+}
+
+.pricing-table thead td h2 {
+  font-size: 44px;
+}
+
+.pricing-table td p {
+  font-size: 14px;
+  color: gray;
+}
+
+.pricing-table td {
+  padding: 16px 0;
+  max-width: 100px;
+}
+
+.pricing-table td .pkg-name {
+  text-align: center;
+  padding: 8px;
+}
+
+.green {
+  color: #167931;
+}
+
+.blue {
+  color: #14378a;
+}
+
+.pink {
+  color: #811d45;
+}
+
+.bg-green {
+  background-color: #167931;
+}
+
+.bg-blue {
+  background-color: #14378a;
+}
+
+.bg-pink {
+  background-color: #811d45;
+}
+
+.pricing-table td .vll {
+  width: 48px;
+  height: 1px;
+  margin: 16px 0;
+  background: #000;
+}
+
+.pricing-table td .vl {
+  width: 24px;
+  height: 1px;
+  margin: 8px auto;
+}
+
+.pricing-table td .price-box {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+  border-radius: 999px;
+  padding: 4px;
+  margin-top: 16px;
+}
+
+.pricing-table td .cur, .pricing-table td .price-box .price-dur {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.pricing-table td .price-box .price {
+  font-size: 44px;
+  line-height: 1;
+}
+
+.pricing-table td .price-box .price-dur {
+  align-self: self-end;
+}
+
+.pricing-table .tab-check {
+  text-align: center;
+  font-size: 24px;
+}
