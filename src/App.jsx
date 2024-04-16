@@ -27,7 +27,7 @@ function App() {
     },
     {
       title: "Adipisicing elit",
-      description: "At temporibus nihil ipsum eaque.",
+      description: "At temporibus nihil ipsum eaque hello.",
       starter: true,
       business: false,
       professional: false,
